@@ -40,31 +40,20 @@ footer{
 
 @media screen and (min-width: 640px){
     main{
-        max-width: 80%;
+        width: 80%;
+        max-width: 960px;
         margin: 0 auto;
     }
 
     #quote{
-        max-width: 80%;
+        width: 80%;
+        max-width: 960px;
         margin: 0 auto;
     }
 
     #cards{
-        max-width: 80%;
+        width: 80%;
+        max-width: 960px;
         margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 960px){
-    main{
-        max-width: 70%;
-    }
-
-    #quote{
-        max-width: 70%;        
-    }
-
-    #cards{
-        max-width: 70%;        
     }
 }
